@@ -39,10 +39,10 @@ h2{
   border-radius: 5px;
 }
 .rotation img{
--webkit-transition:-webkit-transform .9s; // Chrome Safari
--moz-transition:-moz-transform .9s;       // Mozilla
--o-transition:-o-transform .9s;           // Opéra
--ms-transition:-ms-transform .9s;         // IE
+-webkit-transition:-webkit-transform .9s;
+-moz-transition:-moz-transform .9s;
+-o-transition:-o-transform .9s;
+-ms-transition:-ms-transform .9s;
 transition:transform .9s;
 }
 .rotation img:hover{
@@ -103,4 +103,20 @@ nav li a{
 }
 .fonce{
   color: white;
+}
+.femme{
+  background: url(/img/banner-bg.jpg);
+  height: 70%;
+  background-size:cover
+}
+.femme h2{
+  color: white;
+}
+.femme button{
+  text-transform: uppercase;
+  background-color:#324C63;
+  color: white;
+}
+.container1{
+  padding: 12em 0 12em 0;
 }
