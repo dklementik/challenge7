@@ -6,6 +6,11 @@ header{
   height: 100%;
   background-size:cover;
 }
+.span{
+  /*margin-top: 10px;*/
+  padding-bottom: 3em;
+  text-align: center;
+}
 .header{
   text-align: center;
   padding-top: 6em;
@@ -38,6 +43,7 @@ h2{
   padding: 13px;
   border-radius: 5px;
 }
+
 .rotation img{
 -webkit-transition:-webkit-transform .9s;
 -moz-transition:-moz-transform .9s;
@@ -63,11 +69,21 @@ transform:rotate(540deg);
 .fleche a{
   color: white;
 }
+.container-fluid{
+  max-width: 65%;
+}
 .right{
   float: right;
 }
+.left{
+  float: left;
+  margin-right: 1em;
+}
 nav {
   padding: 0em;
+  font-weight: bold;
+  color: #34495E;
+  padding: 14px 0px 0px 14px
 }
 nav li{
   float: left;
@@ -75,6 +91,7 @@ nav li{
 }
 nav li a{
   text-decoration: none;
+  margin-right: 1em;
   color: #34495E;
 }
 .background{
@@ -88,26 +105,55 @@ nav li a{
 .center{
   text-align: center;
 }
+.grey{
+  color:#A9B2BB;
+}
 .green{
   color: white;
-  background-color: #1ABC9C;*
+  background-color: #1ABC9C;
   border-radius: 5px;
+  padding: 7px;
 }
 .blue{
   color: white;
   background-color: #3394D5;
   border-radius: 6px;
+  padding: 7px;
+}
+.padding{
+  padding: 3em 0em 3em 0em
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ;
 }
 .fonce{
   background-color: #34485D;
-}
-.fonce{
   color: white;
+}
+.uppercase{
+  border-radius: 5px;
 }
 .femme{
   background: url(/img/banner-bg.jpg);
-  height: 70%;
-  background-size:cover
+  padding: 7em;
+  background-size:cover;
+  background-position:center;
 }
 .femme h2{
   color: white;
@@ -117,6 +163,39 @@ nav li a{
   background-color:#324C63;
   color: white;
 }
-.container1{
+.position{
+  position: absolute;
+  bottom: 7em;
+}
+/*.container1{
   padding: 12em 0 12em 0;
+}*/
+.float{
+  float: right;
+}
+.inline{
+  display: inline;
+}
+.listStyle{
+  list-style: none;
+  float: left;
+  margin-right: 1em;
+  font-size: 2em;
+}
+.listStyle1{
+  list-style: none;
+}
+.fonce a{
+  text-decoration: none;
+  color: white
+}
+footer{
+  background-color: #ECF0F1;
+}
+footer .background{
+  color: #BAC1C8;
+}
+footer .background a{
+  color: #A9B2BB;
+  font-weight: bold;
 }
