@@ -121,26 +121,7 @@ nav li a{
   padding: 7px;
 }
 .padding{
-  padding: 3em 0em 3em 0em
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  ;
+  padding: 3em 0em 3em 0em;
 }
 .fonce{
   background-color: #34485D;
@@ -198,4 +179,23 @@ footer .background{
 footer .background a{
   color: #A9B2BB;
   font-weight: bold;
+}
+#iphone .item{
+  margin: 1px;
+}
+#iphone .item img{
+  /*display: block;*/
+  width: 100%;
+  height: auto;
+}
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.owl-theme .owl-controls .owl-page span {
+  background-color: #1ABC9C;
 }
